@@ -10,6 +10,6 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
         "password" 			=> "pass",
         "dbname"			=> "database",
         "host"				=> "host",
-        "driverOptions" 	=> array(1002 => "SET NAMES utf8 COLLATE utf8_swedish_ci")
+        "driverOptions" 	=> array(1002 => "SET NAMES utf8 COLLATE utf8_general_ci")
     ),
 ));
