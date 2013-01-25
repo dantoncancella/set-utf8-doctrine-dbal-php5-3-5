@@ -5,7 +5,7 @@
 */
 $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     'db.options' => array(
-        "driver"   		    => "pdo_mysql",
+        "driver"            => "pdo_mysql",
         "user"              => "user",
         "password"          => "pass",
         "dbname"            => "database",
